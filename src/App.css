@@ -1,0 +1,210 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #121212, #1c1c1c);
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  background: transparent;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #bbbbbb;
+}
+
+/* Personal Information Section */
+/* Personal Information Section */
+#personal-info {
+  padding: 2rem;
+  text-align: center;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  margin: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#personal-info h2 {
+  color: #8b5cf6;
+}
+
+#personal-info p {
+  color: #bbbbbb;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+#personal-info ul {
+  list-style: none;
+  padding: 0;
+  color: #dddddd;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+#personal-info li {
+  display: inline-block;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  color: #bbbbbb;
+}
+
+#personal-info li span.label {
+  font-weight: bold;
+  color: #8b5cf6; /* Primary color for labels */
+}
+
+#personal-info li span.value {
+  color: #e0e0e0; /* Lighter color for values */
+}
+
+
+/* Gallery Slider */
+.slider {
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Social Links */
+#social-links {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.instagram-btn, .whatsapp-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white;
+}
+
+.instagram-btn {
+  background-color: #e1306c;
+}
+
+.whatsapp-btn {
+  background-color: #25d366;
+}
+
+.instagram-btn:hover, .whatsapp-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #1c1c1c;
+  padding: 1rem;
+  text-align: center;
+  color: #888888;
+  font-size: 0.9rem;
+}
+
+
+
+/* Family */
+/* Family */
+#family-information {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.family-cards {
+  display: flex;
+  justify-content: space-between; /* Adjusted to space out cards evenly */
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1000px; /* Ensures the container doesn't stretch too much on larger screens */
+  margin: 0 auto; /* Centers the container */
+  padding: 0 20px; /* Padding for some space on sides */
+}
+
+.family-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px; /* Fixed width for consistency */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.family-card h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.family-card p {
+  color: #555;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.family-card p strong {
+  font-weight: bold;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .family-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .family-card {
+    width: 80%; /* Makes the cards take up more space on mobile */
+    margin-bottom: 20px;
+  }
+}
