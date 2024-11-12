@@ -39,44 +39,49 @@ const App = () => {
           <div><img src="/images/pic1.JPG" alt="Gallery Image 1" /></div>
           <div><img src="/images/pic2.JPG" alt="Gallery Image 2" /></div>
           <div><img src="/images/pic3.JPG" alt="Gallery Image 3" /></div>
+          <div><img src="/images/PIC4N.jpeg" alt="Gallery Image 5" /></div>
+          <div><img src="/images/PIC5N.jpeg" alt="Gallery Image 6" /></div>
+
+
         </Slider>
       </section>
 
             <div id="personal-info">
         <h2>About Me</h2>
-        <p>I'm a software developer based in Canada.</p>
+        <p>Jay Shree Krishna, I’m Vraj Patel, a software developer based in Canada, working with Vebcommerce. 
+          I enjoy exploring technology, love the challenges of my work, and value family and strong relationships. I’m looking forward to building a future with someone who shares a similar outlook on life and growth.</p>
         <ul>
           <li><span class="label">Age:</span> <span class="value">23</span></li>
           <li><span class="label">Education:</span> <span class="value">Computer Programming From Seneca College, Toronto</span></li>
           <li><span class="label">Occupation:</span> <span class="value">Software Developer at VebCommerce</span></li>
           <li><span class="label">Location:</span> <span class="value">Edmonton, Canada</span></li>
-          <li><span class="label">Hobbies:</span> <span class="value">Love traveling and playing cricket</span></li>
-          <li><span class="label">Caste:</span> <span class="value">Kadva Patel</span></li>
+          <li><span class="label">Home Town:</span> <span class="value">Mobha</span></li>
+          <li><span class="label">Hobbies:</span> <span class="value">Love traveling and playing Cricket</span></li>
+          <li><span class="label">Caste:</span> <span class="value">42 Gam Charotar Kadva Patidar</span></li>
         </ul>
       </div>
 
 
-      <section id="family-information">
+  <section id="family-information">
   <h2>Family Information</h2>
-  <p>We are a warm and close-knit family, with strong values of respect, love, and support for each other.</p>
   
   <div class="family-cards">
     <div class="family-card">
       <img src="path/to/father-photo.jpg" alt="Father" class="profile-photo" />
       <h3>Nileshbhai Bhaskarbhai Patel</h3>
-      <p><strong>Location:</strong> Ahmedabad</p>
+      <p><strong>Ahmedabad</strong></p>
     </div>
     
     <div class="family-card">
       <img src="path/to/mother-photo.jpg" alt="Mother" class="profile-photo" />
       <h3>Rinaben Nileshbhai Patel</h3>
-      <p><strong>Location:</strong> Ahmedabad</p>
+      <p><strong>Ahmedabad</strong></p>
     </div>
     
     <div class="family-card">
       <img src="path/to/brother-photo.jpg" alt="Brother" class="profile-photo" />
       <h3>Vruti Patel</h3>
-      <p><strong>Location:</strong> London, Canada</p>
+      <p><strong>London, Canada</strong></p>
     </div>
   </div>
 </section>
