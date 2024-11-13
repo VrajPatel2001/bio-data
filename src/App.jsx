@@ -67,19 +67,19 @@ const App = () => {
   
   <div class="family-cards">
     <div class="family-card">
-      <img src="path/to/father-photo.jpg" alt="Father" class="profile-photo" />
+      <img src="/images/Papa.JPG" alt="Father" class="profile-photo" />
       <h3>Nileshbhai Bhaskarbhai Patel</h3>
       <p><strong>Ahmedabad</strong></p>
     </div>
     
     <div class="family-card">
-      <img src="path/to/mother-photo.jpg" alt="Mother" class="profile-photo" />
+      <img src="/images/Mom.JPG" alt="Mother" class="profile-photo" />
       <h3>Rinaben Nileshbhai Patel</h3>
       <p><strong>Ahmedabad</strong></p>
     </div>
     
     <div class="family-card">
-      <img src="path/to/brother-photo.jpg" alt="Brother" class="profile-photo" />
+      <img src="/images/Vruti.JPG" alt="Brother" class="profile-photo" />
       <h3>Vruti Patel</h3>
       <p><strong>London, Canada</strong></p>
     </div>
