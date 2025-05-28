@@ -55,7 +55,7 @@ const App = () => {
           <li><span class="label">Education:</span> <span class="value">Computer Programming From Seneca College, Toronto</span></li>
           <li><span class="label">Occupation:</span> <span class="value">Software Developer at VebCommerce</span></li>
           <li><span class="label">Location:</span> <span class="value">Edmonton, Canada</span></li>
-          <li><span class="label">Home Town:</span> <span class="value">Mobha</span></li>
+          <li><span class="label">Home Town:</span> <span class="value">Mobha, Tarapur, Anand</span></li>
           <li><span class="label">Hobbies:</span> <span class="value">Love traveling and playing Cricket</span></li>
           <li><span class="label">Caste:</span> <span class="value">42 Gam Charotar Kadva Patidar</span></li>
         </ul>
@@ -70,6 +70,7 @@ const App = () => {
       <img src="/images/Papa.JPG" alt="Father" class="profile-photo" />
       <h3>Nileshbhai Bhaskarbhai Patel</h3>
       <p><strong>Ahmedabad</strong></p>
+      <p><strong>Work:</strong> Cipla Health (Marketing team)</p>
     </div>
     
     <div class="family-card">
@@ -81,7 +82,7 @@ const App = () => {
     <div class="family-card">
       <img src="/images/Vruti.JPG" alt="Brother" class="profile-photo" />
       <h3>Vruti Patel</h3>
-      <p><strong>London, Canada</strong></p>
+      <p><strong>Thompson, Canada</strong></p>
     </div>
   </div>
 </section>
@@ -90,7 +91,7 @@ const App = () => {
       
 
       <footer>
-        <p>© 2024 Vraj Patel</p>
+        <p>© 2025 Vraj Patel</p>
       </footer>
     </div>
   );
